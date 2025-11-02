@@ -1,6 +1,4 @@
-:root {
-  --blue: #00acdc;
-}
+@import '../utils/vars';
 
 *,
 *::before,
@@ -72,18 +70,18 @@ img {
   height: 60px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #000;
+  color: $color-text;
   position: relative;
   font-weight: 500;
   font-style: normal;
 }
 
 .nav__link:hover {
-  color: var(--blue);
+  color: $color-button;
 }
 
 .nav__link.is-active {
-  color: var(--blue);
+  color: $color-button;
 }
 
 .nav__link.is-active::after {
@@ -94,6 +92,6 @@ img {
   bottom: 0;
   height: 4px;
   border-radius: 4px;
-  background-color: var(--blue);
+  background-color: $color-button;
   width: 100%;
 }

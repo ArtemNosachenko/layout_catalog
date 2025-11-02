@@ -10,8 +10,8 @@
   }
 
   &__item {
-    width: 16px;
-    height: 16px;
+    width: $font-size-l;
+    height: $font-size-l;
     background-image: url('../images/star.svg');
     background-repeat: no-repeat;
     background-position: center;
@@ -22,7 +22,7 @@
     align-items: center;
     font-weight: $font-weight-s;
     font-size: $font-size-xs;
-    line-height: 14px;
+    line-height: $font-size-m;
     color: $color-text;
   }
 
