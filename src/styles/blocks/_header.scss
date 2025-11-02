@@ -78,6 +78,7 @@ img {
 
 .nav__link:hover {
   color: $color-button;
+  transition: 300ms;
 }
 
 .nav__link.is-active {
